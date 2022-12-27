@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "test2": "nodemon /models/projects.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "express": "^4.18.2",
+    "nodemailer": "^6.8.0",
     "sqlite3": "^5.1.4"
   }
 }

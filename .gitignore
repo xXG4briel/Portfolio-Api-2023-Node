@@ -1,3 +1,6 @@
 .env
 node_modules
 route.rest
+portfolio.db
+.vercel
+emails.js
